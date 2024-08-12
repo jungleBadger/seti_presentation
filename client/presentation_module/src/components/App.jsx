@@ -24,9 +24,8 @@ function App() {
             multiplex: {
                 // Example values. To generate your own, see the socket.io server instructions.
                 "secret": null,
-                "socketId": "35c115997a5e0645",
                 "id": "35c115997a5e0645",
-                url: 'https://reveal-multiplex.glitch.me/' // Location of socket.io server
+                "url": 'https://reveal-multiplex.glitch.me/' // Location of socket.io server
             },
             dependencies: [
                 { src: 'https://reveal-multiplex.glitch.me/socket.io/socket.io.js', async: true },
