@@ -12,7 +12,7 @@ node_modules
 /client/.env.test.local
 
 
-/client/*_module/dist
+
 
 # JetBrains PyCharm and WebStorm project files
 /.idea/
@@ -24,4 +24,4 @@ Thumbs.db
 .vscode/
 *.log
 
-/client/presentation_module/assets/
+/server
