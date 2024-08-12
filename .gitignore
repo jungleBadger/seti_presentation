@@ -25,7 +25,7 @@ Thumbs.db
 *.log
 
 /server
-
+/client
 
 /root
 start.html
