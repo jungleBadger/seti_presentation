@@ -1,6 +1,7 @@
 import { h } from "preact";
 import { useEffect, useRef } from "preact/hooks";
 
+import JobPostingSlide from "./JobPosting/JobPostingSlide.jsx";
 import QRCodeSlide from "./QRCode/QRCodeSlide.jsx";
 import JobPostingSlide from "./JobPosting/JobPostingSlide.jsx";
 import WhoAmISlide from "./WhoAmI/WhoAmISlide.jsx";
