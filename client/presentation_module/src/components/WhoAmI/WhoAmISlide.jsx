@@ -86,12 +86,18 @@ function WhoAmISlide() {
                 </div>
             </section>
 
-            <section data-background-position="0 30%" data-background-image="/assets/pic3.jpg" className="who-am-i-content-box">
-            </section>
+            <section data-background-position="0 35%" data-background-image="/assets/pic3.jpg" className="who-am-i-content-box"></section>
+
+
+            <section data-background-position="0 30%" data-background-image="/assets/pic4.jpg" className="who-am-i-content-box"></section>
+
+            <section data-background-image="/assets/pic7.jpg" className="who-am-i-content-box"></section>
+            <section data-background-image="/assets/pic8.jpg" className="who-am-i-content-box"></section>
+            <section data-background-image="/assets/pic2.jpeg" className="who-am-i-content-box"></section>
 
 
 
-            </section>
+        </section>
     );
 }
 

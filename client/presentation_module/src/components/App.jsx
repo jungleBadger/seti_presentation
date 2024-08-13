@@ -1,10 +1,12 @@
 import { h } from "preact";
 import { useEffect, useRef } from "preact/hooks";
 
+import QRCodeSlide from "./QRCode/QRCodeSlide.jsx";
 import WhoAmISlide from "./WhoAmI/WhoAmISlide.jsx";
 import HypeSlide from "./Hype/HypeSlide.jsx";
 import DemoSlide from "./Demo/DemoSlide.jsx";
 import PromptDemoSlide from "./PromptDemo/PromptDemoSlide.jsx";
+import ThanksSlide from "./Thanks/ThanksSlide.jsx";
 
 import Reveal from "reveal.js";
 import RevealHighlight from "reveal.js/plugin/highlight/highlight.esm";
@@ -124,6 +126,8 @@ function App() {
         <div className="reveal" ref={deckDivRef}>
             <div className="slides">
 
+                <QRCodeSlide />
+
                 <WhoAmISlide />
 
                 <HypeSlide />
@@ -141,18 +145,16 @@ function App() {
                         <h1 style="color: #3B82F6;">Computação quântica</h1>
                     </section>
                     <section data-auto-animate data-auto-animate-id="two" data-auto-animate-restart>
-                        <section>
-                            <h2 style="color: #3B82F6;">1</h2>
-                            <h2 style="color: #3B82F6;">2</h2>
-                        </section>
-                    </section>
-                    <section data-auto-animate data-auto-animate-id="two" data-auto-animate-restart>
                         <h1 style="color: #10B981;">Computaçao Edge "de borda"</h1>
                     </section>
                     <section data-auto-animate data-auto-animate-id="two" data-auto-animate-restart>
                         <h1 style="color: #EC4899;">5G e 6G</h1>
                     </section>
                 </section>
+
+                <ThanksSlide />
+
+
             </div>
         </div>
     );
