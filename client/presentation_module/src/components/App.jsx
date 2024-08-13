@@ -2,6 +2,7 @@ import { h } from "preact";
 import { useEffect, useRef } from "preact/hooks";
 
 import QRCodeSlide from "./QRCode/QRCodeSlide.jsx";
+import JobPostingSlide from "./JobPosting/JobPostingSlide.jsx";
 import WhoAmISlide from "./WhoAmI/WhoAmISlide.jsx";
 import HypeSlide from "./Hype/HypeSlide.jsx";
 import DemoSlide from "./Demo/DemoSlide.jsx";
@@ -125,6 +126,8 @@ function App() {
         // our parent element. Make sure the parent is not 0-height.
         <div className="reveal" ref={deckDivRef}>
             <div className="slides">
+
+                <JobPostingSlide />
 
                 <QRCodeSlide />
 
